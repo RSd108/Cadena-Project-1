@@ -7,7 +7,7 @@ function App() {
   const [isProposalOwner, setIsProposalOwner] = useState(false);
   const [currentProposalName, setCurrentProposalName] = useState(null);
   const [totalVotes, setTotalVotes] = useState(null);
-  const [ownerAddress, setOwnerAddress] = useState(null);
+  //const [ownerAddress, setOwnerAddress] = useState(null);
   const [error, setError] = useState(null);
   const [inputValue, setInputValue] = useState({ proposalName: "", newMember: "" });
 
@@ -129,7 +129,7 @@ function App() {
         const contract = new ethers.Contract(contractAddress, contractABI, signer);
 
         let owner = await contract.owner();
-        setOwnerAddress(owner);
+       // setOwnerAddress(owner);
 
         const [account] = await window.ethereum.request({ method: 'eth_requestAccounts' });
 

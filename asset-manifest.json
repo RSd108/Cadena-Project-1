@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cadena-Project-1/static/css/main.87d6e283.css",
+    "main.js": "/Cadena-Project-1/static/js/main.079c67f5.js",
+    "static/js/787.eb33ce48.chunk.js": "/Cadena-Project-1/static/js/787.eb33ce48.chunk.js",
+    "index.html": "/Cadena-Project-1/index.html",
+    "main.87d6e283.css.map": "/Cadena-Project-1/static/css/main.87d6e283.css.map",
+    "main.079c67f5.js.map": "/Cadena-Project-1/static/js/main.079c67f5.js.map",
+    "787.eb33ce48.chunk.js.map": "/Cadena-Project-1/static/js/787.eb33ce48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87d6e283.css",
+    "static/js/main.079c67f5.js"
+  ]
+}
